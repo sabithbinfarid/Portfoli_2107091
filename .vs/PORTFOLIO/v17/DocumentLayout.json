@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\PORTFOLIO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D175C3BB-3530-4015-8367-14E93FC2CF24}|PORTFOLIO\\PORTFOLIO.csproj|C:\\Users\\Lenovo\\source\\repos\\PORTFOLIO\\portfolio\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D175C3BB-3530-4015-8367-14E93FC2CF24}|PORTFOLIO\\PORTFOLIO.csproj|solutionrelative:portfolio\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D175C3BB-3530-4015-8367-14E93FC2CF24}|PORTFOLIO\\PORTFOLIO.csproj|C:\\Users\\Lenovo\\source\\repos\\PORTFOLIO\\portfolio\\stylesheet1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D175C3BB-3530-4015-8367-14E93FC2CF24}|PORTFOLIO\\PORTFOLIO.csproj|solutionrelative:portfolio\\stylesheet1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D175C3BB-3530-4015-8367-14E93FC2CF24}|PORTFOLIO\\PORTFOLIO.csproj|c:\\users\\lenovo\\source\\repos\\portfolio\\portfolio\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D175C3BB-3530-4015-8367-14E93FC2CF24}|PORTFOLIO\\PORTFOLIO.csproj|solutionrelative:portfolio\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JavaScript.js",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PORTFOLIO\\PORTFOLIO\\JavaScript.js",
+              "RelativeDocumentMoniker": "PORTFOLIO\\JavaScript.js",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PORTFOLIO\\PORTFOLIO\\JavaScript.js",
+              "RelativeToolTip": "PORTFOLIO\\JavaScript.js",
+              "ViewState": "AgIAAEwCAAAAAAAAAAAuwH8CAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-01T14:48:04.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StyleSheet1.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PORTFOLIO\\PORTFOLIO\\StyleSheet1.css",
+              "RelativeDocumentMoniker": "PORTFOLIO\\StyleSheet1.css",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PORTFOLIO\\PORTFOLIO\\StyleSheet1.css",
+              "RelativeToolTip": "PORTFOLIO\\StyleSheet1.css",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAPECAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-01T14:42:44.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PORTFOLIO\\PORTFOLIO\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "PORTFOLIO\\WebForm1.aspx",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PORTFOLIO\\PORTFOLIO\\WebForm1.aspx",
+              "RelativeToolTip": "PORTFOLIO\\WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-01T14:38:28.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
