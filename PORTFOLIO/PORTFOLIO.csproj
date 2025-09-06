@@ -77,7 +77,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="blood.jpg" />
+    <Content Include="img.jpg" />
     <Content Include="JavaScript.js" />
+    <Content Include="clock.jpg" />
+    <Content Include="res.jpg" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />

@@ -391,37 +391,37 @@
             }
         ]
     },
-    projects: {
+   projects: {
         title: "My Projects",
         subtitle: "Here are some of the projects I've worked on",
         items: [
             {
                 title: "Restaurant Management System",
                 description: "Developed a comprehensive Windows-based desktop application for managing restaurant operations including table management, order tracking, billing, and inventory management.",
-                image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                image: "res.jpg",
                 tags: ["Java", "OOP", "SQL", "IntelliJ IDEA"],
-                githubUrl: "https://github.com/yourusername/restaurant-management"
+                githubUrl: "https://github.com/sabithbinfarid/Restaurent-Management-System.git"
             },
             {
                 title: "Digital Clock Simulation",
                 description: "Designed and simulated the complete logic circuit for a functional digital clock using Logisim with counters for seconds, minutes, and hours, and a display decoder.",
-                image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                image: "clock.jpg",
                 tags: ["Logisim", "Digital Logic", "Circuit Design"],
-                githubUrl: "https://github.com/yourusername/digital-clock"
+                githubUrl: "https://github.com/sabithbinfarid/Clock-Design.git"
             },
             {
-                title: "Web Development (Laravel)",
+                title: "Blood Donation Management System (Laravel)",
                 description: "Modified and enhanced web applications using the Laravel PHP framework with backend logic, MVC architecture, and frontend integration.",
-                image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                image: "blood.jpg",
                 tags: ["Laravel", "PHP", "MVC", "HTML/CSS"],
-                githubUrl: "https://github.com/yourusername/laravel-projects"
+                githubUrl: "https://github.com/sabithbinfarid/Blood-Donation-Management-Laravel-.git"
             },
             {
                 title: "20 Bit Mini Computer Design",
                 description: "Designed and implemented a 20-bit mini computer architecture as part of computer architecture course, including ALU, control unit, and memory management components.",
-                image: "https://images.unsplash.com/photo-1581094288338-231b058b38b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                image: "img.jpg",
                 tags: ["Computer Architecture", "Logisim", "Digital Design", "Assembly"],
-                githubUrl: "https://github.com/yourusername/mini-computer"
+                githubUrl: "https://github.com/sabithbinfarid/20-bit-mini-computer.git"
             }
         ]
     },
@@ -622,15 +622,8 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 1000);
     });
 
-    // Contact form submission
-    document.getElementById('contactForm').addEventListener('submit', function (e) {
-        e.preventDefault();
-
-        // In a real application, this would send data to a server
-        alert('Thank you for your message! In a real application, this would be saved to a database.');
-        this.reset();
-    });
-
+  
+ 
     // Show message function
     function showMessage(text, type) {
         loginMessage.textContent = text;

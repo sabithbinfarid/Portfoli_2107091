@@ -206,7 +206,7 @@
             <div class="projects-grid" id="projects-container">
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Restaurant Management System">
+                        <img src="res.jpg" alt="Restaurant Management System">
                     </div>
                     <div class="project-info">
                         <h3>Restaurant Management System</h3>
@@ -217,13 +217,13 @@
                             <span class="project-tag">SQL</span>
                             <span class="project-tag">IntelliJ IDEA</span>
                         </div>
-                        <a href="https://github.com/yourusername/restaurant-management" class="project-link" target="_blank">View Project</a>
+                        <a href="https://github.com/sabithbinfarid/Restaurent-Management-System.git" class="project-link" target="_blank">View Project</a>
                     </div>
                 </div>
                 
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Digital Clock Simulation">
+                        <img src="clock.jpg" alt="Digital Clock Simulation">
                     </div>
                     <div class="project-info">
                         <h3>Digital Clock Simulation</h3>
@@ -233,16 +233,16 @@
                             <span class="project-tag">Digital Logic</span>
                             <span class="project-tag">Circuit Design</span>
                         </div>
-                        <a href="https://github.com/yourusername/digital-clock" class="project-link" target="_blank">View Project</a>
+                        <a href="https://github.com/sabithbinfarid/Clock-Design.git" class="project-link" target="_blank">View Project</a>
                     </div>
                 </div>
                 
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Web Development">
+                        <img src="blood.jpg" alt="Web Development">
                     </div>
                     <div class="project-info">
-                        <h3>Web Development (Laravel)</h3>
+                        <h3>Blood Donation Management System (Laravel)</h3>
                         <p>Modified and enhanced web applications using the Laravel PHP framework with backend logic, MVC architecture, and frontend integration.</p>
                         <div class="project-tags">
                             <span class="project-tag">Laravel</span>
@@ -250,13 +250,13 @@
                             <span class="project-tag">MVC</span>
                             <span class="project-tag">HTML/CSS</span>
                         </div>
-                        <a href="https://github.com/yourusername/laravel-projects" class="project-link" target="_blank">View Project</a>
+                        <a href="https://github.com/sabithbinfarid/Blood-Donation-Management-Laravel-.git" class="project-link" target="_blank">View Project</a>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="https://images.unsplash.com/photo-1581094288338-231b058b38b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="20 Bit Mini Computer Design">
+                        <img src="img.jpg" alt="20 Bit Mini Computer Design">
                     </div>
                     <div class="project-info">
                         <h3>20 Bit Mini Computer Design</h3>
@@ -267,7 +267,7 @@
                             <span class="project-tag">Digital Design</span>
                             <span class="project-tag">Assembly</span>
                         </div>
-                        <a href="https://github.com/yourusername/mini-computer" class="project-link" target="_blank">View Project</a>
+                        <a href="https://github.com/sabithbinfarid/20-bit-mini-computer.git" class="project-link" target="_blank">View Project</a>
                     </div>
                 </div>
             </div>
@@ -329,28 +329,30 @@
                         <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Your Email</label>
-                            <input type="email" id="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                </div>
+
+              <div class="contact-form">
+                <form  runat="server">
+                 <div class="form-group">
+                      <label for="name">Your Name</label>
+                 <asp:TextBox ID="txtName" runat="server" required></asp:TextBox>
+                  </div>
+         <div class="form-group">
+              <label for="email">Your Email</label>
+          <asp:TextBox ID="txtEmail" runat="server" TextMode="Email" required ></asp:TextBox>
+    </div>
+          <div class="form-group">
+              <label for="Subject">Subject</label>
+         <asp:TextBox ID="txtSubject" runat="server" required ></asp:TextBox>
+              </div>
+         <div class="form-group">
+               <label for="Message">Message</label>
+         <asp:TextBox ID="txtMessage" runat="server" Class="form-control" TextMode="MultiLine"  required ></asp:TextBox>
             </div>
+           <asp:Button ID="btnSend" runat="server" Text="Send Message" Class="btn" OnClick="btn_send" />
+           <asp:Label ID="lblStatus" runat="server" ForeColor="Red"></asp:Label>
+                   </form>
+            </div>
+        </div>
         </div>
     </section>
 
