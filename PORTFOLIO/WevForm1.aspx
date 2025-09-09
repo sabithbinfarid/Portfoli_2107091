@@ -22,7 +22,7 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#" class="btn" id="admin-login-btn">Admin Login</a></li>
+                 <li><a href="#" class="btn" id="admin-login-btn">Admin Login</a></li>
                 </ul>
                 <div class="mobile-menu-btn">
                     <i class="fas fa-bars"></i>
@@ -374,30 +374,144 @@
     <div class="admin-panel" id="admin-panel">
         <div class="admin-container">
             <div class="admin-header">
-                <h2>Admin Login</h2>
+                <h2>Admin Panel</h2>
                 <button class="close-admin" id="close-admin">Close</button>
             </div>
             
-            <div class="login-form">
-                <form id="login-form">
-                    <div class="form-group">
-                        <label for="username">Username</label>
-                        <input type="text" id="username" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="password" id="password" required>
-                    </div>
-                    <button type="submit" class="login-btn">Login</button>
-                </form>
-                <div id="login-message" class="message"></div>
+            <div class="admin-options">
+                <div class="admin-option">
+                    <h3>Admin Access</h3>
+                    <p>Click the button below to access the admin dashboard.</p>
+                    <button class="login-btn" id="admin-redirect-btn">Login</button>
+                </div>
             </div>
         </div>
     </div>
 
-    <script src="JavaScript.js">
-        // Data structure to hold all portfolio content with skill details
-       
+    <script src="JavaScript.js"></script>
+    <script>
+        // Admin panel functionality
+        document.addEventListener('DOMContentLoaded', function () {
+            const adminLoginBtn = document.getElementById('admin-login-btn');
+            const adminPanel = document.getElementById('admin-panel');
+            const closeAdmin = document.getElementById('close-admin');
+            const adminRedirectBtn = document.getElementById('admin-redirect-btn');
+
+            // Show admin panel when clicking admin login
+            adminLoginBtn.addEventListener('click', function (e) {
+                e.preventDefault();
+                adminPanel.style.display = 'flex';
+            });
+
+            // Close admin panel
+            closeAdmin.addEventListener('click', function () {
+                adminPanel.style.display = 'none';
+            });
+
+            // Close panel when clicking outside
+            adminPanel.addEventListener('click', function (e) {
+                if (e.target === adminPanel) {
+                    adminPanel.style.display = 'none';
+                }
+            });
+
+            // Redirect to admin page (you can add your link here)
+            adminRedirectBtn.addEventListener('click', function () {
+                // Replace 'your-admin-page-url.aspx' with your actual admin page URL
+                window.location.href = 'Admin.aspx'; // Change this to your admin page URL
+            });
+        });
     </script>
+
+    <style>
+        .admin-panel {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .admin-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .admin-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 1rem;
+        }
+
+        .admin-header h2 {
+            margin: 0;
+            color: #333;
+        }
+
+        .close-admin {
+            background: none;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            color: #666;
+            padding: 0.5rem;
+        }
+
+        .close-admin:hover {
+            color: #333;
+        }
+
+        .admin-options {
+            text-align: center;
+        }
+
+        .admin-option {
+            padding: 1rem 0;
+        }
+
+        .admin-option h3 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .admin-option p {
+            color: #666;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .login-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 120px;
+        }
+
+        .login-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .login-btn:active {
+            transform: translateY(0);
+        }
+    </style>
 </body>
 </html>
