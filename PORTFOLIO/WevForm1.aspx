@@ -44,11 +44,15 @@
                     <div class="hero-buttons">
                         <a href="#projects" class="btn">View My Work</a>
                         <a href="#contact" class="btn btn-outline">Contact Me</a>
+                        <a href="cv.pdf" class="btn btn-cv" download="MD_Sabith_CV.pdf" target="_blank">
+                         Download CV
+                    </a>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="MD. SABITH" id="hero-image">
+                    <img src="profile.jpg" alt="MD. SABITH" id="hero-image">
                 </div>
+                <div>
             </div>
         </div>
     </section>
@@ -323,10 +327,10 @@
                         </div>
                     </div>
                     <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/sabithbinfarid?tab=overview&from=2025-08-01&to=2025-08-31" class="social-link"><i class="fab fa-github"></i></a>
                         <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com/sabith.sabith.752861" class="social-link"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
 
